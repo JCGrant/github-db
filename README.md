@@ -2,6 +2,10 @@
 
 Add this action to your repo, and it'll become a (shitty) database!
 
+Add the workflow and create a `tables` directory at the root of your repo, and you're done!
+
+Use the [cli](./cli/ghdb.js) as an example of how to interact with the DB.
+
 # Example workflow
 
 The `repository_dispatch.types` are necessary.
