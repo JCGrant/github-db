@@ -1,0 +1,6 @@
+name: "Github DB"
+description: "Turn your repo into a database!"
+author: "JCGrant"
+runs:
+  using: "node12"
+  main: "dist/index.js"

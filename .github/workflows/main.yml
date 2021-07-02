@@ -1,0 +1,12 @@
+on:
+  repository_dispatch:
+    types: [add, update, delete]
+
+jobs:
+  test_the_action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Test the action
+        uses: ./
