@@ -1,0 +1,11 @@
+// Rename to config.js
+
+module.exports = {
+  githubUsername: "XXXXXXXXXXX",
+  githubRepo: "XXXXXXXXXXXX",
+  githubPersonalAccessToken: "ghp_XXXXXXXXXXXXXXXXXXXXX",
+
+  tableName: "XXXXXXXXXXXXXXX",
+  action: "add", // add, update, or delete
+  values: { XXX: "XXXXXXXX", YYY: "YYYYYYYY" },
+};
